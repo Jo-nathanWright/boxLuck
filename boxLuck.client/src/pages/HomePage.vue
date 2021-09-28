@@ -1,10 +1,38 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 bg-white rounded elevation-3">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo" class="rounded-circle">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Vue 3 Starter
-      </h1>
+  <div class="container-fluid">
+    <div class="row mt-3">
+      <div class="col-3">
+        <div class="home-card bg-white rounded elevation-3 d-flex flex-column align-items-center py-4">
+          <img class="Img elevation-2" src="../assets/img/BO3.jpg" alt="Black Ops 3 Image">
+          <div class="col-11 bg-white text-dark text-center pt-3">
+            <h4>COD: Black Ops 3</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="home-card bg-white rounded elevation-3 d-flex flex-column align-items-center py-4">
+          <img class="Img elevation-2" src="../assets/img/BO4.jpg" alt="Black Ops 3 Image">
+          <div class="col-11 bg-white text-dark text-center pt-3">
+            <h4>COD: Black Ops 4</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="home-card bg-white rounded elevation-3 d-flex flex-column align-items-center py-4">
+          <img class="Img elevation-2" src="../assets/img/BO5.png" alt="Black Ops Cold War Image">
+          <div class="col-11 bg-white text-dark text-center pt-3">
+            <h4>COD: Black Ops Cold War</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="home-card bg-white rounded elevation-3 d-flex flex-column align-items-center py-4">
+          <img class="Img elevation-2" src="../assets/img/BOV.png" alt="Black Ops Vanguard Image">
+          <div class="col-11 bg-white text-dark text-center pt-3">
+            <h4>COD: Vanguard</h4>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -32,5 +60,11 @@ export default {
       object-position: center;
     }
   }
+}
+.Img{
+  max-width: 200px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 </style>
